@@ -336,6 +336,9 @@ curl https://ticketresto-nc-rest.herokuapp.com/accounts/{identifier}/{password}/
         center: true,
 
         transition: 'slide', // none/fade/slide/convex/concave/zoom
+		
+		// allotted time for presentation
+		allottedTime: 3 * 60 * 1000, // 3 minutes
 
         // More info https://github.com/hakimel/reveal.js#dependencies
         dependencies: [
@@ -345,7 +348,8 @@ curl https://ticketresto-nc-rest.herokuapp.com/accounts/{identifier}/{password}/
             { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
             { src: 'plugin/zoom-js/zoom.js', async: true },
             { src: 'plugin/notes/notes.js', async: true },
-            { src: 'plugin/tagcloud/tagcloud.js', async: true }
+            { src: 'plugin/tagcloud/tagcloud.js', async: true },
+			{ src: 'plugin/elapsed-time-bar/elapsed-time-bar.js'}
         ]
     });
 
