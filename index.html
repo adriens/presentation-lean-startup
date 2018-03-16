@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!--<title>Penser "micro", business value et réduction du Time To Market :
+        un cas concret de la génèse d'une nouveau service...</title>
+-->
+<title>Penser micro : du cas d'utilisation à l'appli mobile, ... en moins de 3 WEs.</title>
+    <meta name="description" content="Penser micro">
+    <meta name="author" content="Adrien Sales & Michèle Barré">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+    
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+        
+        <section data-background-transition="slide" data-background="img/35410723.jpg">
+
+            <h3>Penser "micro" : du cas d'utilisation à l'appli mobile.</h3>
+            <h4>LEAN startup sur 3 WEs.</h4>
+
+            <small><a href="https://www.linkedin.com/in/adrien-sales/">Adrien Sales</a> /
+                <a href="https://www.linkedin.com/in/michelebarre/">Michèle Barré</a></small>
+
+        </section>
+
+        
+        <section>
+            <iframe id="iframe_container" webkitallowfullscreen=""
+                    mozallowfullscreen=""
+                    allowfullscreen=""
+                    src="https://prezi.com/embed/ltoc5w22qitj/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1RxTTZtZ3U2SjNXTEJpaTR4UXJ2V2R3PT0&amp;landing_sign=yOYMYymr9eV7mw80QfJhNm_UaaKXi9cnK5ZQeu_kFOw" width="1000" height="700" frameborder="0"></iframe>
+        </section>
+        
+        
+
+        <!-- --------------------------------------------------------- -->
+
+        <section>
+            <h3>L'histoire d'une app'</h3>
+            <p>Inception et génèse d'un nouveau service innovant et utile :
+                tickets restaurants en mobilité, développé dans le "garage".</p>
+        </section>
+        
+        
+        
+        <section>
+            <h3>Aujourd'hui.</h3>
+            <p>Je suis en caisse : je ne connais pas le montant du solde de ma
+                carte tickets restaurants.
+            </p>
+        </section>
+        
+        <section>
+            <blockquote>"Il y a un site Web, mais il est pas adapté à mon tel, je ne pense même
+                pas à cette option..."</blockquote>
+        </section>
+        
+        <section>
+            <p>Et à vraire dire... qui y a déja pensé ?</p>
+        </section>
+        
+        <section>
+            <h3>;-(</h3>
+            <p>Je ne maîtrise pas et donc ne peux optimiser mes dépenses,
+                au moment où j'en ai besoin : à la caisse.</p>
+        </section>
+        
+        <section data-background-transition="slide">
+            <img src="img/blind10.jpg"/>
+            <blockquote>Bon ben...je vais tenter ...</blockquote>
+        </section>
+        
+        <section data-background-transition="slide">
+            <blockquote>... et surtout chercher une solution pour y remédier...je suis sûr que vous aussi
+            vous y êtes passés ? Non ?</blockquote>
+        </section>
+        
+        <section data-background-transition="slide">
+            <img src="img/gotv-voting-hands.jpg"/>
+        </section>
+        
+        
+        
+        
+        <section data-background-transition="slide">
+            <h3>Blocage et opportunité</h3>
+            <p>Du blocage naît l'opportunité de création d'un service utile...voire même "bankable".</p>
+        </section>
+        
+        <section data-background-transition="slide">
+            
+            <img src="img/Elevator-Pitch1.png"/>
+        </section>
+      
+        
+        
+        <section>
+            <h3>Le pitch du MVP</h3>
+            <blockquote>Une appli mobile pour consulter mon solde des tickets
+                restaurants.</blockquote>
+        </section>
+        
+        <section>
+            <h3>MVP-sessionnel</h3>
+            <blockquote>Toute action est passée au filtre du MVP : c'est l'obsession de chaque instant.</blockquote>
+        </section>
+        
+        
+        <section>
+            <h3>Expérience LEAN Startup</h3>
+            <ul>
+                <li>Moyens temps : dev perso WE/soirées</li>
+                <li>Stack : Java, Spring Boot, Heroku, Postman</li>
+                <li>Time To Market : 3 WEs</li>
+                <li>LEAN Team : Michèle, Adrien et bêta testeurs confidentiels</li>
+                <li>Déploiement : continu (git push heroku) à la fonctionnalité</li>
+                <li>Infrastructure : services clouds pour tout (code, build, documentation, déploiement, dépendances)</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Le jour du tout premier pitch : le recrutement des talents</h3>
+            <blockquote>"Tiens, Michèle, ... j'ai développé un SDK qui permet d'interagir
+                avec le site des tickets restaurants... regardes un peu ce que ça donne : marrant non ?"</blockquote>
+        </section>
+        
+        <section data-background-transition="slide" data-background="img/the-lean-startup_50291668aa9bb_w1500.png.jpg" data-background-size="65%">
+            
+        </section>
+
+        <section>
+            <h3>Challenges : pas d'API (1/2)</h3>
+            <p>Pas d'API pour le site des tickets restaurants : développement d'un SDK java
+            permettant de récupérer les données du site web.</p>
+        </section>
+
+        <section>
+            <h3>Challenges : pas d'API (2/2)</h3>
+            <p>Documentation, développement et déploiement d'une API REST.</p>
+             <!--<pre><code>
+curl https://ticketresto-nc-rest.herokuapp.com/accounts/{identifier}/{password}/balance
+</code></pre>-->
+            
+        </section>
+        
+        <section data-background-transition="slide">
+            <h3>[Hacking]</h3>
+            <p><blockquote>The hacker culture is a subculture of individuals who
+                enjoy the intellectual challenge of creatively overcoming limitations
+                of software systems to achieve novel and clever outcomes.[1]
+                The act of engaging in activities (such as programming or other
+                media[2]) in a spirit of playfulness and exploration is
+                termed "hacking". Wikipedia</blockquote></p>
+        </section>
+        
+        <section data-background-transition="slide" data-background="img/doc-postman.png">
+        </section>
+        
+        
+        <section data-background-transition="slide">
+            <h3>Le changement de paradigme</h3>
+            <p>Tout bascule, nous avons une API :
+            
+            <blockquote>tout est maintenant possible, avec peu d'efforts et pour
+                un public de développeurs très divers.</blockquote></p>
+        </section>
+        
+        <section data-background-transition="slide" data-background="https://media.giphy.com/media/4ZrTDz24u2mZytybUV/giphy.gif">
+        
+           <iframe src="https://giphy.com/embed/4ZrTDz24u2mZytybUV"
+                   width="480" height="366" frameBorder="0"
+                   class="giphy-embed" allowFullScreen></iframe>
+                   <p><a href="https://giphy.com/gifs/happy-api-droopy-4ZrTDz24u2mZytybUV"></a></p>
+        </section>
+        
+        
+        <section data-background-transition="slide">
+            <h3>Pour gérer le budget sur le drive Google</h3>
+            <img src="https://media.giphy.com/media/QnbnVPVWhzbCE/giphy.gif"/>
+        </section>
+        
+        <section data-background-transition="slide" data-background="img/spread-1.png"  data-background-size="70%">
+            
+        </section>
+<section data-background-transition="slide"  data-background="img/spread-2.png"  data-background-size="45%">
+            
+        </section>
+        
+        <section data-background-transition="slide" data-background="img/spread-3.png"  data-background-size="45%">
+            
+        </section>
+        
+        <section data-background-transition="slide" data-background="img/spread-4.png"  data-background-size="60%">
+            
+        </section>
+        
+        <section data-background-transition="slide" data-background="img/spread-5.png"  data-background-size="75%">
+            
+        </section>
+        
+        <section data-background-transition="slide" data-background="img/spread-6.png"  data-background-size="90%">
+            
+        </section>
+        
+        <section data-background-transition="slide">
+            <h3>sur tablette</h3>
+        </section>
+        
+        <section data-background-transition="slide" data-background="img/tablette.jpg"  data-background-size="60%">
+            
+        </section>
+        
+        <section data-background-transition="slide">
+            <h3>Ce MVP ... vous le voulez ?</h3>
+        </section>
+        
+        <section data-background-transition="slide">
+            <iframe src="https://giphy.com/embed/3o7aD2bww8abIWwFmE" width="453" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3o7aD2bww8abIWwFmE"></a></p>
+        </section>
+        
+        <section data-background-transition="slide" data-background="img/img_4285_1024.png"  data-background-size="70%">
+            
+        </section>
+
+        <section data-background-transition="slide">
+            <img src="img/img_4284_1024.png" width="38%"/>
+        </section>
+
+        <section data-background-transition="slide">
+            <img src="img/img_4283_1024.png"  width="38%"/>
+        </section>
+
+        <section data-background-transition="slide">
+            <img src="img/img_4286_1024.png"  width="38%"/>
+        </section>        
+        
+        <section data-background-transition="slide">
+            <h3>Démo live.</h3>
+        </section>
+        
+        <section data-background-transition="slide">
+            <iframe src="https://giphy.com/embed/3osxYamKD88c6pXdfO" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/season-3-money-unicorn-3osxYamKD88c6pXdfO"></a></p>
+        </section>
+        
+        <section data-background-transition="slide">
+            <h3>Product Backlog (non triée)</h3>
+            <p>
+            <ul>
+                <li>Job qui détecte et avertit lors du changement de solde</li>
+                <li>Le chemin le plus court vers les partenaires qui prennent
+                    la carte autour de moi, dans la rue</li>
+                <li>La version smartwatch</li>
+                <li>Intégration aux assistans vocaux</li>
+            </ul>
+            </p>
+        </section>
+        
+        
+        
+        <section data-background-transition="slide">
+            <h3>Les questions d'après.</h3>
+            <ul>
+                <li>La communauté des utilisateurs</li>
+                <li>Attirer de nouveaux développeurs</li>
+                <li>Inestisseurs/sponsoring</li>
+                <li>La distribution</li>
+                <li>Les partenaires</li>
+                <li>L'API-fication et ses domaines d'application</li>
+            </ul>
+        </section>
+        
+        <section data-background-transition="slide" >
+            <h3>Liens.</h3>
+            <p>
+            <ul>
+                <li><a href="https://goo.gl/BFcCMw">Génèse de cette histoire.</a></li>
+                <li><a href="https://goo.gl/4mkfoK">Une autre histoire d'API-ification.</a></li>
+            </ul>
+            </p>
+        </section>
+    </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'plugin/zoom-js/zoom.js', async: true },
+            { src: 'plugin/notes/notes.js', async: true },
+            { src: 'plugin/tagcloud/tagcloud.js', async: true }
+        ]
+    });
+
+</script>
+
+</body>
+</html>
