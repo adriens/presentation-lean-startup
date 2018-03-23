@@ -252,8 +252,14 @@ curl https://ticketresto-nc-rest.herokuapp.com/accounts/{identifier}/{password}/
             <h3>Ce MVP ... vous le voulez ?</h3>
         </section>
         
+        
+        
         <section data-background-transition="slide">
             <iframe src="https://giphy.com/embed/3o7aD2bww8abIWwFmE" width="453" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/3o7aD2bww8abIWwFmE"></a></p>
+        </section>
+        
+        <section data-background-transition="slide">
+            <h3>Smartphone (iPhone).</h3>
         </section>
         
         <section data-background-transition="slide" data-background="img/img_4285_1024.png"  data-background-size="70%">
@@ -273,6 +279,26 @@ curl https://ticketresto-nc-rest.herokuapp.com/accounts/{identifier}/{password}/
         </section>        
         
         <section data-background-transition="slide">
+            <h3>Tablette (Galaxy Tab S2).</h3>
+        </section>
+        
+        <section data-background-transition="slide">
+            <img src="img/Screenshot_20180323-181619.png"  width="50%"/>
+        </section>
+        <section data-background-transition="slide">
+            <img src="img/Screenshot_20180323-181716.png"  width="50%"/>
+        </section>
+        <section data-background-transition="slide">
+            <img src="img/Screenshot_20180323-182224.png"  width="50%"/>
+        </section>
+        <section data-background-transition="slide">
+            <img src="img/Screenshot_20180323-182247.png"  width="50%"/>
+        </section>
+        <section data-background-transition="slide">
+            <img src="img/Screenshot_20180323-182302.png"  width="50%"/>
+        </section>
+        
+        <section data-background-transition="slide">
             <h3>Démo live.</h3>
         </section>
         
@@ -284,7 +310,7 @@ curl https://ticketresto-nc-rest.herokuapp.com/accounts/{identifier}/{password}/
             <h3>Product Backlog (non triée)</h3>
             <p>
             <ul>
-                <li>Job qui détecte et avertit lors du changement de solde</li>
+                <li>Job qui détecte et notifie lors du changement de solde (pratique avec une smartwatch)</li>
                 <li>Le chemin le plus court vers les partenaires qui prennent
                     la carte autour de moi, dans la rue</li>
                 <li>La version smartwatch</li>
@@ -300,7 +326,7 @@ curl https://ticketresto-nc-rest.herokuapp.com/accounts/{identifier}/{password}/
             <ul>
                 <li>La communauté des utilisateurs</li>
                 <li>Attirer de nouveaux développeurs</li>
-                <li>Inestisseurs/sponsoring</li>
+                <li>Inestisseurs/sponsoring : qui souhaite investir de sa poche ou de son temps ?</li>
                 <li>La distribution</li>
                 <li>Les partenaires</li>
                 <li>L'API-fication et ses domaines d'application</li>
@@ -317,8 +343,17 @@ curl https://ticketresto-nc-rest.herokuapp.com/accounts/{identifier}/{password}/
             </p>
         </section>
         
-        <section data-background-transition="slide"  data-background="img/qr-code.png"  data-background-size="45%">
+        <section data-background-transition="slide" >
+            <h3>Revoir</h3>
+            <img src="img/qr-code.png" width="55%"/>
         </section>
+        
+        <section data-background-transition="slide">
+            <h3>Feedback</h3>
+            <!-- https://fr.surveymonkey.com/r/SFPL8GX -->
+            <img src="img/qr-code-questionnaire.png" width="55%"/>
+        </section>
+        
     </div>
 
 </div>
@@ -336,6 +371,9 @@ curl https://ticketresto-nc-rest.herokuapp.com/accounts/{identifier}/{password}/
         center: true,
 
         transition: 'slide', // none/fade/slide/convex/concave/zoom
+		
+		// allotted time for presentation
+		allottedTime: 3 * 60 * 1000, // 3 minutes
 
         // More info https://github.com/hakimel/reveal.js#dependencies
         dependencies: [
@@ -345,7 +383,8 @@ curl https://ticketresto-nc-rest.herokuapp.com/accounts/{identifier}/{password}/
             { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
             { src: 'plugin/zoom-js/zoom.js', async: true },
             { src: 'plugin/notes/notes.js', async: true },
-            { src: 'plugin/tagcloud/tagcloud.js', async: true }
+            { src: 'plugin/tagcloud/tagcloud.js', async: true },
+			{ src: 'plugin/elapsed-time-bar/elapsed-time-bar.js'}
         ]
     });
 
